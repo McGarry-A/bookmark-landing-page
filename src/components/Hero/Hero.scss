@@ -1,6 +1,7 @@
 .hero {
     display: flex;
     padding: 4em;
+    position: relative;
 
     .hero-left {
         width: 100%;
@@ -47,5 +48,16 @@
     .hero-right {
         width: 100%;
         padding: 4em 0;
+
+        .background-blue {
+            background-color: hsl(231, 69%, 60%);
+            position: absolute;
+            width: 40rem;
+            height: 22.5rem;
+            right: 0;
+            bottom: 100px;
+            z-index: -1;
+            border-radius: 0 0 0 50%;
+        }
     }
 }

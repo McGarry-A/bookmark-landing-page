@@ -1,17 +1,42 @@
 .features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .features-title {
+    font-size: 1.5em;
+  }
+
+  .features-text {
+    margin-top: 25px;
+    font-size: 18px;
+    width: 40%;
+    text-align: center;
+    font-weight: 400;
+  }
+}
+
+nav {
+  .features-nav-list {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    list-style: none;
+    justify-content: space-around;
+    margin: 5em 20em;
+    padding-bottom: 1.5em;
+    border-bottom: solid 2px #eee;
 
-    .features-title {
-        font-size: 1.5em;
-    }
+    .features-nav-item {
+      .navLink {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+      }
+      .active {
 
-    .features-text {
-        margin-top: 25px;
-        font-size: 18px;
-        width: 40%;
-        text-align: center;
-        font-weight: 400;
+      }
+
+      .inactive {
+      }
     }
+  }
 }

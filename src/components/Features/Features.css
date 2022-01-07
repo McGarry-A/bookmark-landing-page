@@ -22,4 +22,22 @@
   text-align: center;
   font-weight: 400;
 }
+
+nav .features-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5em 20em;
+  padding-bottom: 1.5em;
+  border-bottom: solid 2px #eee;
+}
+
+nav .features-nav-list .features-nav-item .navLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
 /*# sourceMappingURL=Features.css.map */

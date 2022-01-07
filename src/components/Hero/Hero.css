@@ -3,6 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   padding: 4em;
+  position: relative;
 }
 
 .hero .hero-left {
@@ -51,5 +52,16 @@
 .hero .hero-right {
   width: 100%;
   padding: 4em 0;
+}
+
+.hero .hero-right .background-blue {
+  background-color: #5368df;
+  position: absolute;
+  width: 40rem;
+  height: 22.5rem;
+  right: 0;
+  bottom: 100px;
+  z-index: -1;
+  border-radius: 0 0 0 50%;
 }
 /*# sourceMappingURL=Hero.css.map */

@@ -1,0 +1,66 @@
+.tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+.tab .tab-left {
+  width: 100%;
+}
+
+.tab .tab-left img {
+  margin-left: 200px;
+}
+
+.tab .tab-left .background-blue {
+  height: 350px;
+  width: 50rem;
+  background-color: #5368df;
+  border-radius: 0 0 35% 0;
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+  z-index: -100;
+}
+
+.tab .tab-right {
+  padding: 6em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tab .tab-right .tab-right-title {
+  text-align: left;
+  width: 100%;
+  margin: 0 0 1em 0;
+}
+
+.tab .tab-right .tab-right-text {
+  padding-right: 7em;
+  margin: 0 0 1em 0;
+}
+
+.tab .tab-right button {
+  background-color: #5368df;
+  color: white;
+  padding: 1.2em 1.6em;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0;
+}
+/*# sourceMappingURL=Tab.css.map */
