@@ -43,18 +43,18 @@
 .tab .tab-right .tab-right-title {
   text-align: left;
   width: 100%;
-  margin: 0 0 1em 0;
+  margin: 0 0 1.5em 0;
 }
 
 .tab .tab-right .tab-right-text {
   padding-right: 7em;
-  margin: 0 0 1em 0;
+  margin: 0 0 1.5em 0;
 }
 
 .tab .tab-right button {
   background-color: #5368df;
   color: white;
-  padding: 1.2em 1.6em;
+  padding: 1.2em 2em;
   color: white;
   border: none;
   border-radius: 5px;
