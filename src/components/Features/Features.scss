@@ -1,0 +1,17 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .features-title {
+        font-size: 1.5em;
+    }
+
+    .features-text {
+        margin-top: 25px;
+        font-size: 18px;
+        width: 40%;
+        text-align: center;
+        font-weight: 400;
+    }
+}

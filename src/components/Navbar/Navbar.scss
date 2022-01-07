@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 1em;
+
+    nav {
+        .nav-list {
+            display: flex;
+            list-style: none;
+            align-items: center;
+
+            .nav-item {
+                margin: 0 0 0 2.5em;
+                cursor: pointer;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: .8em;
+
+                .nav-cta {
+                    padding: 1em 2.5em;
+                    margin: 0 0 0 1em;
+                    color: white;
+                    background-color: hsl(0, 94%, 66%);
+                    border: none;
+                    border-radius: 5px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

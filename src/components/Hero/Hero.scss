@@ -1,0 +1,51 @@
+.hero {
+    display: flex;
+    padding: 4em;
+
+    .hero-left {
+        width: 100%;
+        align-items: center;
+        padding: 5em 0;
+
+        .hero-title {
+            margin: .8em 0;
+            text-align: left;
+            font-size: 3em;
+        }
+
+        .hero-text {
+            margin: .8em 0;
+            text-align: left;
+            font-size: 18px;
+            font-weight: 400;
+            width: 79%;
+        }
+
+        .hero-button-div {
+            margin: .8em 0;
+
+            .hero-button {
+                padding: 1.2em 1.3em;
+                margin: 1em 1em 0 0;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            
+            .blue {
+                background-color: hsl(231, 69%, 60%);
+            }
+
+            .grey {
+                color: black;
+            }
+        }
+        
+    }
+
+    .hero-right {
+        width: 100%;
+        padding: 4em 0;
+    }
+}
