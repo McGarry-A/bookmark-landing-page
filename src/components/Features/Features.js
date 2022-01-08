@@ -1,10 +1,10 @@
 import "./Features.css";
 import { Routes, Route, NavLink } from "react-router-dom";
 import Tab1 from "../Tab1/Tab1.js";
-import Tab2 from "../Tab2/Tab2.js";
-import Tab3 from "../Tab3/Tab3.js";
+import BackgroundImage from "../../images/illustration-features-tab-1.svg";
+import Tab2Image from "../../images/illustration-features-tab-2.svg";
+import Tab3Image from "../../images/illustration-features-tab-3.svg";
 const Features = () => {
-
   return (
     <div>
       <div className="features">
@@ -50,12 +50,45 @@ const Features = () => {
         </ul>
       </nav>
       <Routes>
-        <Route path="/" element={<Tab1 />} />
-        <Route path="/tab2" element={<Tab2 />} />
-        <Route path="/tab3" element={<Tab3 />} />
+        {tabs.map((el, index) => {
+          return (
+            <Route
+              path={el.path}
+              element={
+                <Tab1
+                  image={el.image}
+                  title={el.title}
+                  text={el.text}
+                  key={index}
+                />
+              }
+            />
+          );
+        })}
       </Routes>
     </div>
   );
 };
 
 export default Features;
+
+const tabs = [
+  {
+    title: "Bookmark in one click",
+    text: "Organise your bookmarks however you like. Our simple drag and drop interface gives you complete control over how you manage your favorite sites.",
+    image: BackgroundImage,
+    path: "/",
+  },
+  {
+    title: "Intelligent Search",
+    text: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all your bookmarks.",
+    image: Tab2Image,
+    path: "/tab2",
+  },
+  {
+    title: "Share your Bookmarks",
+    text: "Easily share you bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
+    image: Tab3Image,
+    path: "/tab3",
+  },
+];
