@@ -21,7 +21,7 @@
         }
     }
     .tab-right {
-        padding: 6em;
+        padding: 3em 6em;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -34,8 +34,10 @@
         }
 
         .tab-right-text {
-            padding-right: 7em;
+            padding-right: 3em;
             margin: 0 0 1.5em 0;
+            line-height: 1.5em;
+            font-size: 18px;
         }
 
         button {
