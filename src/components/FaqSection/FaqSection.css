@@ -1,0 +1,47 @@
+.faq-container .faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.faq-container .faq .faq-header .faq-title {
+  padding-bottom: 1em;
+  font-size: 2rem;
+}
+
+.faq-container .faq .faq-header .faq-text {
+  font-size: 18px;
+  line-height: 1.5em;
+  width: 70%;
+  padding-bottom: 3em;
+}
+
+.faq-container .faq-row-wrapper .faq-body {
+  width: 50%;
+}
+
+.faq-container button {
+  background-color: #5368df;
+  color: white;
+  cursor: pointer;
+  padding: .8em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3em auto;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+/*# sourceMappingURL=FaqSection.css.map */
