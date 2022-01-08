@@ -1,11 +1,11 @@
-import BookmarkLogo from "../../images/logo-bookmark.svg"
+import {ReactComponent as Logo} from "../../images/logo-bookmark.svg"
 import "./Navbar.css"
 
 const Navbar = () => {
     return (
         <header>
             <div className="logo-div">
-                <img src={BookmarkLogo} alt="logo"/>
+                <Logo color="black"/>
             </div>
             <nav>
                 <ul className="nav-list">
