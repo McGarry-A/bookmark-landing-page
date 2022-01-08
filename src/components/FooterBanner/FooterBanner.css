@@ -1,0 +1,75 @@
+.footer-banner {
+  height: 350px;
+  background-color: #5368df;
+  color: white;
+}
+
+.footer-banner .footer-banner-container {
+  height: 100%;
+  padding: 3em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-banner .footer-banner-container .footer-banner-text {
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  font-size: 16px;
+}
+
+.footer-banner .footer-banner-container .footer-banner-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.footer-banner .footer-banner-container .footer-contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-banner .footer-banner-container .footer-contact-us input {
+  width: 300px;
+  height: 50px;
+  padding: 1em;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 1em 0 0;
+}
+
+.footer-banner .footer-banner-container .footer-contact-us button {
+  height: 50px;
+  padding: 1em 2em;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fa5757;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=FooterBanner.css.map */
