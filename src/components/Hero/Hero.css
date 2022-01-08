@@ -38,7 +38,6 @@
   padding: 1.2em 1.3em;
   margin: 1em 1em 0 0;
   color: white;
-  border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
@@ -48,10 +47,28 @@
 
 .hero .hero-left .hero-button-div .blue {
   background-color: #5368df;
+  border: 2px solid #5368df;
+}
+
+.hero .hero-left .hero-button-div .blue:hover {
+  background-color: white;
+  color: #5368df;
+  border: 2px solid #5368df;
 }
 
 .hero .hero-left .hero-button-div .grey {
   color: black;
+  border: 2px solid #eee;
+}
+
+.hero .hero-left .hero-button-div .grey:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.hero .hero-left .hero-button-div:hover {
+  background-color: white;
 }
 
 .hero .hero-right {

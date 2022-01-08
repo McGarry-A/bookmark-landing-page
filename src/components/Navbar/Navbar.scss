@@ -27,6 +27,17 @@ header {
                     text-transform: uppercase;
                     letter-spacing: 1px;
                     cursor: pointer;
+                    border: 1px solid hsl(0, 94%, 66%);
+
+                    &:hover {
+                        color: hsl(0, 94%, 66%);
+                        background-color: white;    
+                        border: 1px solid hsl(0, 94%, 66%);
+                    }
+                }
+
+                &:hover {
+                    color: hsl(0, 94%, 66%);
                 }
             }
         }

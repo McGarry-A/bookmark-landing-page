@@ -1,7 +1,8 @@
 import "./Footer.css";
 import { ReactComponent as Logo } from "../../images/logo-bookmark.svg";
-import Facebook from "../../images/icon-facebook.svg";
-import Twitter from "../../images/icon-twitter.svg";
+import { ReactComponent as Facebook } from "../../images/icon-facebook.svg";
+import { ReactComponent as Twitter } from "../../images/icon-twitter.svg";
+
 const Footer = () => {
   return (
     <footer>
@@ -16,10 +17,10 @@ const Footer = () => {
       <div className="footer-right-col">
         <ul className="footer-socials">
           <li className="footer-social-link">
-            <img src={Facebook} alt="socials" />
+            <Facebook fill="white" className="footer-social-item" />
           </li>
           <li className="footer-social-link">
-            <img src={Twitter} alt="socials" />
+            <Twitter fill="white" className="footer-social-item"/>
           </li>
         </ul>
       </div>

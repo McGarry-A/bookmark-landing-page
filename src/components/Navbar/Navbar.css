@@ -39,5 +39,16 @@ header nav .nav-list .nav-item .nav-cta {
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
+  border: 1px solid #fa5757;
+}
+
+header nav .nav-list .nav-item .nav-cta:hover {
+  color: #fa5757;
+  background-color: white;
+  border: 1px solid #fa5757;
+}
+
+header nav .nav-list .nav-item:hover {
+  color: #fa5757;
 }
 /*# sourceMappingURL=Navbar.css.map */

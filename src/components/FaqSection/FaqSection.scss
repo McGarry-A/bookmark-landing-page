@@ -26,7 +26,13 @@
           width: 50%;
         .faq-row {
           .row-title {
-              
+              &:hover {
+                color: hsl(0, 94%, 66%);
+              }
+
+              &:active {
+                color: hsl(0, 94%, 66%);
+              }
           }
           .row-content {
             .row-content-text {

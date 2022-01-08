@@ -31,7 +31,7 @@
                 padding: 1.2em 1.3em;
                 margin: 1em 1em 0 0;
                 color: white;
-                border: none;
+                
                 border-radius: 5px;
                 cursor: pointer;
                 font-size: 18px;
@@ -40,10 +40,26 @@
             
             .blue {
                 background-color: hsl(231, 69%, 60%);
+                border: 2px solid hsl(231, 69%, 60%);
+                &:hover {
+                    background-color: white;
+                    color: hsl(231, 69%, 60%);
+                    border: 2px solid hsl(231, 69%, 60%);
+                }
             }
 
             .grey {
                 color: black;
+                border: 2px solid #eee;
+                &:hover {
+                    background-color: white;
+                    color: black;
+                    border: 2px solid black;
+                }
+            }
+
+            &:hover{ 
+                background-color: white;
             }
         }
         

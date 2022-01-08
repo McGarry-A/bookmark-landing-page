@@ -57,11 +57,19 @@
 
 .extensions .card-container .extension-div-card .card-button {
   background-color: #5368df;
+  border: 2px solid #5368df;
   color: white;
   width: 90%;
   padding: 1em 1.4em;
-  border: none;
   border-radius: 5px;
   font-size: 1.1em;
+  cursor: pointer;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.extensions .card-container .extension-div-card .card-button:hover {
+  color: #5368df;
+  background-color: white;
 }
 /*# sourceMappingURL=Extensions.css.map */

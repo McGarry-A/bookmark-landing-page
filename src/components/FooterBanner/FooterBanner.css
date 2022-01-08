@@ -2,7 +2,6 @@
   height: 350px;
   background-color: #5368df;
   color: white;
-  width: 100%;
 }
 
 .footer-banner .footer-banner-container {
@@ -68,9 +67,14 @@
   padding: 1em 2em;
   font-size: 14px;
   border-radius: 5px;
-  border: none;
+  border: 2px solid #fa5757;
   background-color: #fa5757;
   color: white;
   cursor: pointer;
+}
+
+.footer-banner .footer-banner-container .footer-contact-us button:hover {
+  color: #fa5757;
+  background-color: white;
 }
 /*# sourceMappingURL=FooterBanner.css.map */
