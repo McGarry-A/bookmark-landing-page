@@ -4,6 +4,7 @@ import Tab1 from "../Tab1/Tab1.js";
 import Tab2 from "../Tab2/Tab2.js";
 import Tab3 from "../Tab3/Tab3.js";
 const Features = () => {
+
   return (
     <div>
       <div className="features">

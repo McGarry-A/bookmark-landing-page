@@ -4,6 +4,11 @@ import Opera from "../../images/logo-opera.svg";
 import Dots from "../../images/bg-dots.svg";
 import "./Extensions.css";
 const Extensions = () => {
+
+  const indent = (index) => {
+    return `${index * 50}px`
+  }
+
   return (
     <div className="extensions">
       <div className="extensions-header">
@@ -16,7 +21,7 @@ const Extensions = () => {
       <div className="card-container">
         {extensionData.map((el, index) => {
           return (
-            <div className="extension-div-card">
+            <div className="extension-div-card" style={{marginTop: indent(index)}}>
               <img
                 src={el.image}
                 className="card-extension-image"

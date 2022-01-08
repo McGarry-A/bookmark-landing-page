@@ -12,6 +12,7 @@
             margin: .8em 0;
             text-align: left;
             font-size: 3em;
+            line-height: 1.5em;
         }
 
         .hero-text {
@@ -33,6 +34,8 @@
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
+                font-size: 18px;
+                box-shadow: 0 10px 20px #eee, 0 10px 10px #eee;
             }
             
             .blue {
