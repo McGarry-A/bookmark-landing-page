@@ -19,7 +19,7 @@ const Features = () => {
         <ul className="features-nav-list">
           <li className="features-nav-item">
             <NavLink
-              to="/"
+              to="/bookmark-landing-page"
               className={({ isActive }) =>
                 isActive ? "active navLink" : "inactive navLink"
               }
@@ -29,7 +29,7 @@ const Features = () => {
           </li>
           <li className="features-nav-item">
             <NavLink
-              to="/tab2"
+              to="/bookmark-landing-page/tab2"
               className={({ isActive }) =>
                 isActive ? "active navLink" : "inactive navLink"
               }
@@ -42,7 +42,7 @@ const Features = () => {
               className={({ isActive }) =>
                 isActive ? "active navLink" : "inactive navLink"
               }
-              to="/tab3"
+              to="/bookmark-landing-page/tab3"
             >
               Easy Sharing
             </NavLink>
@@ -77,18 +77,18 @@ const tabs = [
     title: "Bookmark in one click",
     text: "Organise your bookmarks however you like. Our simple drag and drop interface gives you complete control over how you manage your favorite sites.",
     image: BackgroundImage,
-    path: "/",
+    path: "/bookmark-landing-page",
   },
   {
     title: "Intelligent Search",
     text: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all your bookmarks.",
     image: Tab2Image,
-    path: "/tab2",
+    path: "/bookmark-landing-page/tab2",
   },
   {
     title: "Share your Bookmarks",
     text: "Easily share you bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
     image: Tab3Image,
-    path: "/tab3",
+    path: "/bookmark-landing-page/tab3",
   },
 ];
