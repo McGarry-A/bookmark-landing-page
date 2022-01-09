@@ -19,7 +19,7 @@ const Features = () => {
         <ul className="features-nav-list">
           <li className="features-nav-item">
             <NavLink
-              to="/bookmark-landing-page"
+              to="/bookmark-landing-page/"
               className={({ isActive }) =>
                 isActive ? "active navLink" : "inactive navLink"
               }
