@@ -120,10 +120,23 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .hero .hero-right .background-blue {
-    top: 110px;
+    top: 100px;
     right: -400px;
+  }
+  .hero .hero-left .hero-button-div {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-top: 1em;
+  }
+  .hero .hero-left .hero-button-div .hero-button {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=Hero.css.map */

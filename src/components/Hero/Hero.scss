@@ -116,12 +116,24 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .hero {
         .hero-right {
             .background-blue {
-                top: 110px;
+                top: 100px;
                 right: -400px;
+            }
+        }
+
+        .hero-left {
+            .hero-button-div {
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 1em;
+                .hero-button {
+                    margin: 0;
+                }
             }
         }
     }

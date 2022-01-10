@@ -85,7 +85,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .footer-banner .footer-banner-container .footer-contact-us input {
     width: 200px;
     font-size: 14px;
