@@ -17,6 +17,7 @@
         line-height: 1.5em;
         width: 70%;
         padding-bottom: 3em;
+        margin: 0 auto;
       }
     }
 }
@@ -24,6 +25,7 @@
     .faq-row-wrapper {
       .faq-body {
           width: 50%;
+          margin: 0 auto;
         .faq-row {
           .row-title {
               &:hover {
