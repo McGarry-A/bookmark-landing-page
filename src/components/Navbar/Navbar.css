@@ -65,6 +65,7 @@ header nav .nav-list .nav-hamburger {
   }
   header nav .nav-list .nav-hamburger {
     display: block;
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

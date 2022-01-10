@@ -54,12 +54,13 @@ const Features = () => {
           return (
             <Route
               path={el.path}
+              key={index}
               element={
                 <Tab1
                   image={el.image}
                   title={el.title}
                   text={el.text}
-                  key={index}
+                  
                 />
               }
             />

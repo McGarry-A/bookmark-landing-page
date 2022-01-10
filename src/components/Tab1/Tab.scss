@@ -71,9 +71,9 @@
                 width: 100%;
             }
             .background-blue {
-                bottom: 410px;
-                left: -250px;
-                height: 250px;
+                bottom: 340px;
+                left: -300px;
+                height: 200px;
             }
         }
 
@@ -82,6 +82,8 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            padding-left: 0;
+            padding-right: 0;
 
             .tab-right-title {
                 padding-top: 50px;
@@ -89,9 +91,11 @@
             }
 
             .tab-right-text {
-                width: 100%;
+                width: 90%;
                 text-align: center;
                 padding: 0;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             button {

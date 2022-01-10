@@ -97,9 +97,9 @@
     width: 100%;
   }
   .tab .tab-left .background-blue {
-    bottom: 410px;
-    left: -250px;
-    height: 250px;
+    bottom: 340px;
+    left: -300px;
+    height: 200px;
   }
   .tab .tab-right {
     margin-top: 20px;
@@ -110,15 +110,19 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
   }
   .tab .tab-right .tab-right-title {
     padding-top: 50px;
     text-align: center;
   }
   .tab .tab-right .tab-right-text {
-    width: 100%;
+    width: 90%;
     text-align: center;
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .tab .tab-right button {
     margin: 0 auto;
