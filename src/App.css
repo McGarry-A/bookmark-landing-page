@@ -11,4 +11,9 @@
 
 html {
     margin: 0 auto;
+    
+}
+
+.App {
+    overflow: hidden;
 }
