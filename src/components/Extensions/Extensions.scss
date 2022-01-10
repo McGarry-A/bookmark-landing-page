@@ -60,3 +60,20 @@
         }
     }
 }
+
+@media screen and (max-width:500px) {
+    .extensions {
+        .extensions-header {
+            .extensions-header-text {
+                width: 80%;
+            }
+        }
+
+        .card-container {
+            flex-direction: column;
+            height: 1350px;
+            margin-top: 10px;
+            
+        }
+    }
+}

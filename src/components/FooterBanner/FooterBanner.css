@@ -77,4 +77,11 @@
   color: #fa5757;
   background-color: white;
 }
+
+@media screen and (max-width: 500px) {
+  .footer-banner .footer-banner-container .footer-banner-title {
+    width: 100%;
+    padding: 0 1.5em;
+  }
+}
 /*# sourceMappingURL=FooterBanner.css.map */

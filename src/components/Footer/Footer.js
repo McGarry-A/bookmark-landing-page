@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="footer-left-col">
         <ul className="footer-left-list">
-          <Logo color="white" className="footer-nav-item" />
+          <Logo color="white" className="footer-nav-item footer-logo" />
           <li className="footer-nav-item">Features</li>
           <li className="footer-nav-item">Pricing</li>
           <li className="footer-nav-item">Contact</li>

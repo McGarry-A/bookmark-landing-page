@@ -56,3 +56,39 @@ footer {
     }
   }
 }
+@media screen and (max-width: 500px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .footer-left-col {
+      width: 100%;
+      padding: 0;
+      height: 100%;
+      .footer-left-list {
+        height: 100%;
+        flex-direction: column;
+
+        .footer-logo {
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: center;
+        }
+        li{
+          padding: 1em 0;
+        }
+      }
+    }
+
+    .footer-right-col {
+      .footer-socials {
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+}

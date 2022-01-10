@@ -80,4 +80,18 @@
   color: #5368df;
   background-color: white;
 }
+
+@media screen and (max-width: 500px) {
+  .extensions .extensions-header .extensions-header-text {
+    width: 80%;
+  }
+  .extensions .card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1350px;
+    margin-top: 10px;
+  }
+}
 /*# sourceMappingURL=Extensions.css.map */

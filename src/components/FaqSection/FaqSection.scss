@@ -20,35 +20,52 @@
         margin: 0 auto;
       }
     }
-}
+  }
 
-    .faq-row-wrapper {
-      .faq-body {
-          width: 50%;
-          margin: 0 auto;
-        .faq-row {
-          .row-title {
-              &:hover {
-                color: hsl(0, 94%, 66%);
-              }
+  .faq-row-wrapper {
+    .faq-body {
+      width: 50%;
+      margin: 0 auto;
+      .faq-row {
+        .row-title {
+          &:hover {
+            color: hsl(0, 94%, 66%);
+          }
 
-              &:active {
-                color: hsl(0, 94%, 66%);
-              }
+          &:active {
+            color: hsl(0, 94%, 66%);
           }
         }
       }
     }
+  }
 
-    button {
-        background-color: hsl(231, 69%, 60%);
-        color: white;
-        cursor: pointer;
-        padding: .8em 2em;
-        display: flex;
-        margin: 3em auto;
-        border-radius: 5px;
-        border: none;
-        font-size: 18px;
+  button {
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    cursor: pointer;
+    padding: 0.8em 2em;
+    display: flex;
+    margin: 3em auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .faq-container {
+    .faq {
+      .faq-header {
+        .faq-text {
+          width: 80%;
+        }
+      }
     }
+    .faq-row-wrapper {
+      .faq-body {
+        width: 90%;
+      }
+    }
+  }
 }

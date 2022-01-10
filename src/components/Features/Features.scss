@@ -31,8 +31,6 @@ nav {
     border-bottom: solid 2px #eee;
 
     .features-nav-item {
-
-    
       .navLink {
         text-decoration: none;
         color: black;
@@ -42,14 +40,42 @@ nav {
         &:hover {
           color: hsl(0, 94%, 66%);
         }
-  
+
         &:active {
           color: hsl(0, 94%, 66%);
         }
       }
       .active {
-        color:hsl(0, 94%, 66%);
+        color: hsl(0, 94%, 66%);
         border-bottom: 4px solid hsl(0, 94%, 66%);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features {
+    .features-text {
+      width: 100%;
+      padding: 0 1.5em;
+      line-height: 2em;
+    }
+  }
+
+  nav {
+    .features-nav-list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 2em 0em 4em 0;
+
+      .features-nav-item {
+        padding: 1.5em 0;
+        border-bottom: 3px solid #eee;
+        width: 80%;
+        text-align: center;
       }
     }
   }

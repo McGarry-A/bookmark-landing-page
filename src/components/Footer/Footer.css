@@ -79,4 +79,52 @@ footer .footer-right-col .footer-socials .footer-social-link {
 footer .footer-right-col .footer-socials .footer-social-link .footer-social-item:hover {
   color: #fa5757;
 }
+
+@media screen and (max-width: 500px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  footer .footer-left-col {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+  }
+  footer .footer-left-col .footer-left-list {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-left-col .footer-left-list .footer-logo {
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footer-left-col .footer-left-list li {
+    padding: 1em 0;
+  }
+  footer .footer-right-col .footer-socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px auto;
+    padding: 0;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=Footer.css.map */

@@ -81,3 +81,37 @@
         }
     }
 }
+
+@media screen and (max-width:500px) {
+    .hero {
+        flex-direction: column-reverse;
+        padding: 0;
+        width: 100%;
+
+        .hero-right {
+            img {
+                width: 100%;
+            }
+            .background-blue {
+                bottom: 550px;
+                right: -250px;
+            }
+        }
+
+        .hero-left {
+            text-align: center;
+            justify-content: center;
+
+            .hero-title {
+                text-align: center;
+            }
+
+            .hero-text {
+                text-align: center;
+                width: 100%;
+                padding: 0 2em;
+                line-height: 2em;
+            }
+        }
+    }
+}

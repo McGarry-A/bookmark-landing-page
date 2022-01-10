@@ -86,4 +86,37 @@
   z-index: -1;
   border-radius: 0 0 0 50%;
 }
+
+@media screen and (max-width: 500px) {
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 0;
+    width: 100%;
+  }
+  .hero .hero-right img {
+    width: 100%;
+  }
+  .hero .hero-right .background-blue {
+    bottom: 550px;
+    right: -250px;
+  }
+  .hero .hero-left {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero .hero-left .hero-title {
+    text-align: center;
+  }
+  .hero .hero-left .hero-text {
+    text-align: center;
+    width: 100%;
+    padding: 0 2em;
+    line-height: 2em;
+  }
+}
 /*# sourceMappingURL=Hero.css.map */

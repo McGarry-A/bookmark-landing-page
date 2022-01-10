@@ -26,7 +26,7 @@ header nav .nav-list .nav-item {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 header nav .nav-list .nav-item .nav-cta {
@@ -50,5 +50,21 @@ header nav .nav-list .nav-item .nav-cta:hover {
 
 header nav .nav-list .nav-item:hover {
   color: #fa5757;
+}
+
+header nav .nav-list .nav-hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 2em;
+  }
+  header nav .nav-list .nav-item {
+    display: none;
+  }
+  header nav .nav-list .nav-hamburger {
+    display: block;
+  }
 }
 /*# sourceMappingURL=Navbar.css.map */
