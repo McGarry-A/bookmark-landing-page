@@ -71,3 +71,24 @@
         }
     }
 }
+
+@media screen and (max-width: 375px) {
+    .footer-banner {
+        .footer-banner-container {
+            .footer-contact-us {
+                input {
+                    width: 200px;
+                    font-size: 14px;
+                }
+                button {
+                    width: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: bold;
+                    padding: 0
+                }
+            }
+        }
+    }
+}

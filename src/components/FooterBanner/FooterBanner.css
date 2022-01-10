@@ -84,4 +84,25 @@
     padding: 0 1.5em;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .footer-banner .footer-banner-container .footer-contact-us input {
+    width: 200px;
+    font-size: 14px;
+  }
+  .footer-banner .footer-banner-container .footer-contact-us button {
+    width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: bold;
+    padding: 0;
+  }
+}
 /*# sourceMappingURL=FooterBanner.css.map */

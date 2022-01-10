@@ -128,4 +128,11 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .tab .background-blue {
+    bottom: 100px;
+    margin-left: -50px;
+  }
+}
 /*# sourceMappingURL=Tab.css.map */

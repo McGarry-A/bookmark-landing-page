@@ -115,3 +115,14 @@
         }
     }
 }
+
+@media screen and (max-width: 375px) {
+    .hero {
+        .hero-right {
+            .background-blue {
+                top: 110px;
+                right: -400px;
+            }
+        }
+    }
+}
