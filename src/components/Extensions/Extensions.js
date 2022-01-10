@@ -15,7 +15,7 @@ const Extensions = () => {
 
   useEffect(() => {
     window.addEventListener("resize", () => {
-      if (width <= 500) {
+      if (width <= 600) {
         setIsMobile(true)
       } else {
         setIsMobile(false)
