@@ -26,6 +26,10 @@ header nav .nav-list {
           align-items: center;
 }
 
+header nav .nav-list .exit-button {
+  display: none;
+}
+
 header nav .nav-list .nav-item {
   margin: 0 0 0 2.5em;
   cursor: pointer;

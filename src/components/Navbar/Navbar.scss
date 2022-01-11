@@ -13,6 +13,10 @@ header {
       list-style: none;
       align-items: center;
 
+      .exit-button {
+        display: none;
+      }
+
       .nav-item {
         margin: 0 0 0 2.5em;
         cursor: pointer;
